@@ -12,7 +12,7 @@ func failOnError(err error, msg string) {
 
 // 只能在安装 rabbitmq 的服务器上操作
 func Send() {
-	conn, err := amqp.Dial("amqp://guest:guest@47.100.228.3:5672/")
+	conn, err := amqp.Dial("amqp://guest:guest@127.0.0.1:5672/")
 	failOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
 	ch, err := conn.Channel()

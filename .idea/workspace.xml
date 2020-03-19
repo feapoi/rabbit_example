@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232acff1-c3a4-4a41-a2d7-723bd993074e" name="Default Changelist" comment="" />
+    <list default="true" id="232acff1-c3a4-4a41-a2d7-723bd993074e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/direct/exchange.go" beforeDir="false" afterPath="$PROJECT_DIR$/direct/exchange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/direct/recv.go" beforeDir="false" afterPath="$PROJECT_DIR$/direct/recv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/direct/recv2.go" beforeDir="false" afterPath="$PROJECT_DIR$/direct/recv2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/direct/send.go" beforeDir="false" afterPath="$PROJECT_DIR$/direct/send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fanout/exchange.go" beforeDir="false" afterPath="$PROJECT_DIR$/fanout/exchange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fanout/recv.go" beforeDir="false" afterPath="$PROJECT_DIR$/fanout/recv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fanout/send.go" beforeDir="false" afterPath="$PROJECT_DIR$/fanout/send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no_exchange/recv.go" beforeDir="false" afterPath="$PROJECT_DIR$/no_exchange/recv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no_exchange/send.go" beforeDir="false" afterPath="$PROJECT_DIR$/no_exchange/send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic/exchange.go" beforeDir="false" afterPath="$PROJECT_DIR$/topic/exchange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic/recv.go" beforeDir="false" afterPath="$PROJECT_DIR$/topic/recv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic/recv2.go" beforeDir="false" afterPath="$PROJECT_DIR$/topic/recv2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic/send.go" beforeDir="false" afterPath="$PROJECT_DIR$/topic/send.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +31,17 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZCOZUCL0n8vK2DsL49gKSPsE8f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rabbit_example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -61,9 +80,9 @@
     </configuration>
     <configuration name="go build exchange.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="rabbit_example" />
-      <working_directory value="$PROJECT_DIR$/../rabbit_example" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../rabbit_example/topic/exchange.go" />
+      <filePath value="$PROJECT_DIR$/topic/exchange.go" />
       <package value="rabbit_test" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -81,7 +100,7 @@
       <module name="rabbit_example" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../rabbit_example/topic/recv.go" />
+      <filePath value="$PROJECT_DIR$/topic/recv.go" />
       <package value="rabbit_test" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -97,9 +116,9 @@
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="rabbit_example" />
-      <working_directory value="$PROJECT_DIR$/../rabbit_example" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../rabbit_example/test.go" />
+      <filePath value="$PROJECT_DIR$/test.go" />
       <package value="rabbit_test" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -127,5 +146,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
